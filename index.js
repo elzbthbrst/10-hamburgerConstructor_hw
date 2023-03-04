@@ -40,8 +40,8 @@ Hamburger.TOPPING_SPICE = {
 }
 
 Hamburger.prototype.addTopping = function (topping) {
-    this.price = this.price + topping.price 
-    this.callories = this.callories + topping.callories 
+    this.price += topping.price 
+    this.callories += topping.callories 
     
 }
 Hamburger.prototype.getPrice = function () {
